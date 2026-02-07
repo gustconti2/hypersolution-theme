@@ -1,0 +1,146 @@
+/*
+Theme Name: Hypersolution Theme
+Theme URI: https://github.com/gustconti2/hypersolution-theme
+Author: Gustavo Conti
+Author URI: https://github.com/gustconti2
+Description: Custom theme for Hypersolution
+Version: 0.1.0
+*/
+
+/* ===== Base reset ===== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset links */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Remove default margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote {
+    margin: 0;
+}
+
+/* Images behave nicely */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Buttons & inputs inherit font */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+/* === Admin Bar === */
+
+body.admin-bar {
+    padding-top: 46px;
+}
+
+@media (min-width: 783px) {
+    body.admin-bar {
+        padding-top: 32px;
+    }
+}
+
+
+/* ===== Layout ===== */
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+
+.accented-text {
+    color: #95D36F;
+}
+
+
+/* ===== Header ===== */
+
+
+.site-header {
+    padding: 8px 30px;
+    position: fixed;
+    z-index: 10;
+    top: 20px;
+    left: 32px;
+    right: 32px;
+
+    border-radius: 40px;
+    border: 2px solid transparent;
+
+    background:
+        linear-gradient(#050505, #050505) padding-box,
+        linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0.25),
+            rgba(255, 255, 255, 0.05)
+        ) border-box;
+}
+
+/* Mobile */
+body.admin-bar .site-header {
+    top: 46px;
+}
+
+/* Desktop */
+@media (min-width: 783px) {
+    body.admin-bar .site-header {
+        top: 32px;
+    }
+}
+
+.nav-list {
+    display: flex;
+    gap: 24px;
+}
+
+main {
+    padding: 100px 30px 30px;
+}
