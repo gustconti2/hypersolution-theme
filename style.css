@@ -126,13 +126,13 @@ h6 {
 
 /* Mobile */
 body.admin-bar .site-header {
-    top: 46px;
+    top: 56px;
 }
 
 /* Desktop */
 @media (min-width: 783px) {
     body.admin-bar .site-header {
-        top: 32px;
+        top: 42px;
     }
 }
 

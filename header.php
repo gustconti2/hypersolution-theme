@@ -10,6 +10,7 @@
 
 <header class="site-header">
   <nav class="main-nav">
+
     <ul class="nav-list">
 
       <!-- Logo / Home -->
@@ -59,5 +60,6 @@
       </li>
 
     </ul>
+  
   </nav>
 </header>
