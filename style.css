@@ -158,3 +158,60 @@ main {
     letter-spacing: 0%;
     text-align: center;
 }
+
+main {
+    padding: 100px 30px 30px;
+}
+
+/* ===== Hero Section ===== */
+.hero-container {
+    width: 100%;
+    display: flex;
+}
+.hero-box {
+    width: 910px;
+    margin: 0 auto;
+}
+.hero-title {
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    width: 1,130px;
+    height: 273px;
+    top: 294px;
+    left: 385px;
+    font-family: Outfit;
+    font-weight: 380;
+    font-size: 72px;
+    line-height: 95%;
+    letter-spacing: 0%; 
+    text-align: center;
+}
+.hero-text {
+display: flex;
+display: inline-block;
+left: 140px;
+font-family: Outfit;
+font-weight:400;
+font-size: 22px;
+line-height: 100%;
+text-align: center;
+}
+.hero-button {
+box-sizing: border-box;
+display: flex;
+font-family: Outfit;
+font-weight: 500;
+font-size: 30px; 
+text-align: center;
+background: rgb(149, 211, 111);
+margin: 0 auto;
+margin-top: 40px;
+border-radius: 30px;
+padding: 10px;
+color: #000;
+}
+
