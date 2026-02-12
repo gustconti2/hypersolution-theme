@@ -101,46 +101,60 @@ h6 {
 }
 
 
+main {
+    padding: 100px 30px 30px;
+}
+
+
 /* ===== Header ===== */
 
 
 .site-header {
-    padding: 8px 30px;
     position: fixed;
-    z-index: 10;
     top: 20px;
     left: 32px;
     right: 32px;
+    z-index: 10;
 
-    border-radius: 40px;
+    border-radius: 70px;
     border: 2px solid transparent;
-
+    
     background:
-        linear-gradient(#050505, #050505) padding-box,
-        linear-gradient(
-            135deg,
-            rgba(255, 255, 255, 0.25),
-            rgba(255, 255, 255, 0.05)
+    linear-gradient(#050505, #050505) padding-box,
+    linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.25),
+        rgba(255, 255, 255, 0.05)
         ) border-box;
-}
-
-/* Mobile */
-body.admin-bar .site-header {
-    top: 56px;
-}
-
-/* Desktop */
-@media (min-width: 783px) {
-    body.admin-bar .site-header {
-        top: 42px;
+        
     }
+    
+    /* Mobile */
+    body.admin-bar .site-header {
+        top: 56px;
+    }
+    
+    /* Desktop */
+    @media (min-width: 783px) {
+        body.admin-bar .site-header {
+            top: 42px;
+        }
+    }
+    
+    .main-nav {
+        padding: 12px 24px;
+        background-color: #B1B1B11A;
+        border-radius: 70px;
 }
 
 .nav-list {
     display: flex;
     gap: 24px;
-}
-
-main {
-    padding: 100px 30px 30px;
+    font-family: Outfit;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 88%;
+    letter-spacing: 0%;
+    text-align: center;
 }
