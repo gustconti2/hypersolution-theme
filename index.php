@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <main>
+<p> oi braw </p>
   <?php
   if ( have_posts() ) :
     while ( have_posts() ) : the_post();
